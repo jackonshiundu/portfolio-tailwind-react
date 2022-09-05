@@ -17,7 +17,7 @@ const Footer = () => {
         <IoIosCall className='dark:text-white transition duration-500'/> 
         <p className='dark:text-white transition duration-500'>0757094679</p>
       </div>
-      <div className='flex w-10 h-10 bg-gray-300 items-center rounded-full '>
+      <div className='flex w-10 h-10 bg-gray-300 items-center rounded-full overflow-hidden'>
         <BsSunFill className={`${bg&&'bg-blue-900'} w-1/2 rounded-full text-yellow-700 h-fit p-1 transition duration-500`}  onClick={handleClick}/>
         <BsMoonStarsFill className={`${bg||'bg-yellow-700'} rounded-full w-1/2 text-blue-900 h-fit p-1 transition duration-500`}  onClick={handleClick}/>
       </div>
