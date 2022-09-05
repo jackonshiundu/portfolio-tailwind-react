@@ -9,7 +9,7 @@ import Haeder from './components/Heading/Header'
 function App() {
   useDarkMode()
   return (
-    <div  className=' bg-slate-200 dark:bg-slate-900'>
+    <div  className=' bg-slate-200 dark:bg-slate-900 h-fit'>
     <BrowserRouter>
     <Haeder/>
     <Links/>

@@ -2,6 +2,7 @@ import React from 'react'
 import Typed from 'react-typed'
 import { FaGithub,FaWhatsapp } from "react-icons/fa";
 import Fade from 'react-reveal/Fade';
+import cv from './jackon.pdf'
 const Header = () => {
   return (
     <Fade top>
@@ -26,7 +27,7 @@ const Header = () => {
           </Typed>
         </div>
         <div className='flex justify-center gap-10 mt-9 h-full'>
-          <a href="/jackon.pdf" download>
+          <a href={cv} download>
               <button className='bg-blue-700 p-3 rounded-md shadow-md shadow-blue-300 active:scale-150 transition duration-500 text-white '>
               Download CV</button>
           </a>

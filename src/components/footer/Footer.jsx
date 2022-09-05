@@ -11,7 +11,7 @@ const Footer = () => {
   }
 
   return (
-    <div className='text-center text-gray-600 text-sm font-semi-bold py-4 flex justify-center gap-5'>
+    <div className='text-center mt-10 text-gray-600 text-sm font-semi-bold py-4 flex flex-col items-center sm:flex-row justify-center gap-5'>
       <p className='dark:text-white transition duration-500'>&copy;Jackoncode.All rights Reserved</p>
       <div className='flex items-center gap-2'>
         <IoIosCall className='dark:text-white transition duration-500'/> 
