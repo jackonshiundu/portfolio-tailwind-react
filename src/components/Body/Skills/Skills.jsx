@@ -55,6 +55,10 @@ const Skills = () => {
                     <h4 className='font-semibold text-xl dark:text-slate-100 transition duration-400'>Node Js</h4>
                     <p className='text-sm text-gray-900 dark:text-slate-300 transition duration-400'>Intermideate</p>
                 </div>
+                <div>
+                    <h4 className='font-semibold text-xl dark:text-slate-100 transition duration-400'>Database</h4>
+                    <p className='text-sm text-gray-900 dark:text-slate-300 transition duration-400'>Mongo DB</p>
+                </div>
             </div>
         </div>
     </div>

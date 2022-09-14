@@ -6,6 +6,7 @@ import sambaportfolio from '../../../assets/sambaportfolio.png'
 import Teslaclone from '../../../assets/Teslaclone.png'
 import education from '../../../assets/education.png'
 import Hulu from '../../../assets/hulu.png'
+import realtor from '../../../assets/realtor.png'
 const Projects = () => {
   return (
       <div className='flex justify-center'>
@@ -16,6 +17,7 @@ const Projects = () => {
             <BaseCard type='Web' name='Hulu Clone' backgroundImage={Hulu} code='https://github.com/jackonshiundu/hulu-2.0-clone-tailwind-nextjs-reactjs' bgcolor='bg-red-500' link=''/>
             <BaseCard type='Web' name='Jaguar Graphics' backgroundImage={jaguargraphics} code='https://github.com/jackonshiundu/Graphicscompanylandingpage-log-in-form' bgcolor='bg-orange-300' link='https://graphicscompanylandingpage-log-in-form.vercel.app'/>
             <BaseCard type='Web' name='Education Website' backgroundImage={education} code='https://github.com/jackonshiundu/educationwebsite-html-css-javascript' bgcolor='bg-green-300' link='https://magenta-biscochitos-c210d4.netlify.app'/>
+            <BaseCard type='Web' name='Real Estate' backgroundImage={realtor} code='https://github.com/jackonshiundu/real-estate-app-chakra-ui-nextjs' bgcolor='bg-yellow-300' link='https://real-estate-app-chakra-ui-nextjs.vercel.app'/>
         </div>
       </div>
   )
