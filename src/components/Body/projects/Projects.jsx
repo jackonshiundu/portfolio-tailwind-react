@@ -8,6 +8,7 @@ import education from '../../../assets/education.png';
 import Hulu from '../../../assets/hulu.png';
 import realtor from '../../../assets/realtor.png';
 import crypto from '../../../assets/crypto.png';
+import amazon from '../../../assets/amazon.png';
 const Projects = () => {
   return (
     <div className="flex justify-center">
@@ -27,6 +28,14 @@ const Projects = () => {
           code="https://github.com/jackonshiundu/real-estate-app-chakra-ui-nextjs"
           bgcolor="bg-yellow-300"
           link="https://real-estate-app-chakra-ui-nextjs.vercel.app"
+        />
+        <BaseCard
+          type="Web"
+          name="Amazon Clone"
+          backgroundImage={amazon}
+          code="https://github.com/jackonshiundu/amazon-clone"
+          bgcolor="bg-amber-500"
+          link="https://amazon-clone-phi-rust.vercel.app"
         />
         <BaseCard
           type="Web"
